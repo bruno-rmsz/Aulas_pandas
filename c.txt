@@ -1,0 +1,11 @@
+# Criar um ambiente novo no visual studio code utilizando o terminal.
+conda create --name nome_do_ambiente pytho=3.
+
+#Ativar ambiente
+conda activate nome_do_ambiente
+
+#Desativar ambiente em utilização
+conda deactivate
+
+#Listar todos os ambientes criados
+conda info --envs
